@@ -2,8 +2,8 @@
   "hypothesesCles": {
     "personnel": [
       { "poste": "Manager-Chauffeur", "salaireBrut": 4000 },
-      { "poste": "Jardinier", "salaireBrut": 3000 },
-      { "poste": "Jardinier", "salaireBrut": 3000 }
+      { "poste": "Jardinier1", "salaireBrut": 3000 },
+      { "poste": "Jardinier2", "salaireBrut": 3000 }
     ],
     "coutTotalMensuelPersonnel": 12300,
     "vehicule": { "type": "Camionnette d'occasion", "prix": 60000 },
