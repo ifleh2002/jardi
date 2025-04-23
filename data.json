@@ -1,0 +1,114 @@
+{
+  "hypothesesCles": {
+    "personnel": [
+      { "poste": "Manager-Chauffeur", "salaireBrut": 4000 },
+      { "poste": "Jardinier", "salaireBrut": 3000 },
+      { "poste": "Jardinier", "salaireBrut": 3000 }
+    ],
+    "coutTotalMensuelPersonnel": 12300,
+    "vehicule": { "type": "Camionnette d'occasion", "prix": 60000 },
+    "loyerLogementOuvriers": 1600,
+    "zoneChalandise": "Mohammedia et environs",
+    "autres": "Tarification, objectifs clients/CA, saisonnalité, etc., restent à définir précisément."
+  },
+  "planInvestissementInitial": {
+    "besoinTotalMin": 226000,
+    "besoinTotalMax": 430000,
+    "notes": "Le loyer est une charge d'exploitation, pas un investissement initial (sauf s'il y a une caution importante)."
+  },
+  "chargesExploitationPrevisionnelles": {
+    "annee1": [
+      { "poste": "Salaires Bruts", "estimationMensuelle": 10000, "estimationAnnuelle": 120000, "notes": "Confirmé" },
+      { "poste": "Charges Sociales Patronales (Est.)", "estimationMensuelle": 2300, "estimationAnnuelle": 27600, "notes": "Estimé ~23%, à vérifier" },
+      { "poste": "Loyer Logement Ouvriers", "estimationMensuelle": 1600, "estimationAnnuelle": 19200, "notes": "Ajouté selon vos informations" },
+      { "poste": "Loyer (si local professionnel)", "estimationMensuelleMin": 2000, "estimationMensuelleMax": 6000, "estimationAnnuelleMin": 24000, "estimationAnnuelleMax": 72000, "notes": "Si dépôt/bureau" },
+      { "poste": "Carburant", "estimationMensuelleMin": 1500, "estimationMensuelleMax": 4000, "estimationAnnuelleMin": 18000, "estimationAnnuelleMax": 48000, "notes": "1 véhicule" },
+      { "poste": "Entretien véhicule et matériel", "estimationMensuelleMin": 500, "estimationMensuelleMax": 1500, "estimationAnnuelleMin": 6000, "estimationAnnuelleMax": 18000 },
+      { "poste": "Achats Consommables", "estimationMensuelleMin": 1000, "estimationMensuelleMax": 4000, "estimationAnnuelleMin": 12000, "estimationAnnuelleMax": 48000 },
+      { "poste": "Assurances", "estimationMensuelleMin": 500, "estimationMensuelleMax": 1500, "estimationAnnuelleMin": 6000, "estimationAnnuelleMax": 18000, "notes": "RC Pro, Véhicule..." },
+      { "poste": "Eau et Électricité (si local pro.)", "estimationMensuelleMin": 200, "estimationMensuelleMax": 500, "estimationAnnuelleMin": 2400, "estimationAnnuelleMax": 6000 },
+      { "poste": "Téléphone et Internet", "estimationMensuelleMin": 300, "estimationMensuelleMax": 600, "estimationAnnuelleMin": 3600, "estimationAnnuelleMax": 7200 },
+      { "poste": "Marketing et Publicité", "estimationMensuelleMin": 200, "estimationMensuelleMax": 1000, "estimationAnnuelleMin": 2400, "estimationAnnuelleMax": 12000 },
+      { "poste": "Frais bancaires", "estimationMensuelleMin": 100, "estimationMensuelleMax": 300, "estimationAnnuelleMin": 1200, "estimationAnnuelleMax": 3600 },
+      { "poste": "Comptabilité", "estimationMensuelleMin": 500, "estimationMensuelleMax": 1500, "estimationAnnuelleMin": 6000, "estimationAnnuelleMax": 18000 },
+      { "poste": "Amortissements", "estimationMensuelle": 1960, "estimationAnnuelle": 23500, "notes": "Estimé (Véhicule + Matériel)" },
+      { "poste": "Taxes et Impôts (hors IS/IR)", "estimationMensuelle": "Variable", "estimationAnnuelle": "Variable", "notes": "Taxe pro, etc." },
+      { "poste": "Remboursement emprunt (si besoin)", "estimationMensuelle": "Variable", "estimationAnnuelle": "Variable" }
+    ],
+    "totalChargesAnnuellesMin": 271900,
+    "totalChargesAnnuellesMax": 448300,
+    "notes": "Augmenté de 19 200 MAD/an"
+  },
+  "previsionsChiffreAffaires": {
+    "annee1": 462000,
+    "annee2": 554400,
+    "annee3": 637560,
+    "vigilance": "La capacité de l'équipe à atteindre ce CA reste le point clé."
+  },
+  "planFinancementInitial": {
+    "besoinFinancerMin": 226000,
+    "besoinFinancerMax": 430000
+  },
+  "compteResultatPrevisionnel": {
+    "annee1": {
+      "chiffreAffaires": 462000,
+      "achatsConsommables": 30000,
+      "margeBrute": 432000,
+      "salairesEtCharges": 147600,
+      "autresChargesExt": 89200,
+      "ebe": 195200,
+      "dotationsAmortissements": 23500,
+      "resultatExploitation": 171700,
+      "chargesFinancieres": "Variable",
+      "produitsFinanciers": 0,
+      "rcai": "Calcul",
+      "impotSocietesIR": "Variable",
+      "resultatNetComptable": "Calcul",
+      "caf": "Calcul"
+    },
+    "annee2": {
+      "chiffreAffaires": 554400,
+      "achatsConsommables": 36000,
+      "margeBrute": 518400,
+      "salairesEtCharges": 155000,
+      "autresChargesExt": 96200,
+      "ebe": 267200,
+      "dotationsAmortissements": 23500,
+      "resultatExploitation": 243700,
+      "chargesFinancieres": "Variable",
+      "produitsFinanciers": 0,
+      "rcai": "Calcul",
+      "impotSocietesIR": "Variable",
+      "resultatNetComptable": "Calcul",
+      "caf": "Calcul"
+    },
+    "annee3": {
+      "chiffreAffaires": 637560,
+      "achatsConsommables": 41400,
+      "margeBrute": 596160,
+      "salairesEtCharges": 163000,
+      "autresChargesExt": 104200,
+      "ebe": 328960,
+      "dotationsAmortissements": 23500,
+      "resultatExploitation": 305460,
+      "chargesFinancieres": "Variable",
+      "produitsFinanciers": 0,
+      "rcai": "Calcul",
+      "impotSocietesIR": "Variable",
+      "resultatNetComptable": "Calcul",
+      "caf": "Calcul"
+    }
+  },
+  "seuilRentabilite": {
+    "nouvellesCfEstimees": 220300,
+    "tauxMargeCvEstime": 0.8,
+    "nouveauSeuilRentabilite": 275375,
+    "interpretation": "Il faudrait maintenant facturer environ 275 375 MAD par an (soit environ 23 000 MAD par mois) pour couvrir toutes les charges fixes estimées (personnel, loyer ouvriers, assurances moyennes, admin moyens, amortissements). Le seuil de rentabilité augmente logiquement avec l'ajout de cette charge fixe."
+  },
+  "conclusionMiseAJour": {
+    "point1": "L'ajout du loyer pour les ouvriers augmente les charges fixes récurrentes de 19 200 MAD par an.",
+    "point2": "Cela a pour conséquence : Une légère augmentation du total des charges annuelles. Une diminution de la rentabilité prévisionnelle (EBE, Résultat Net). Une augmentation du seuil de rentabilité, signifiant qu'il faut réaliser un chiffre d'affaires légèrement plus élevé pour commencer à être bénéficiaire.",
+    "point3": "Cela renforce l'importance d'atteindre les objectifs de chiffre d'affaires et de maîtriser l'ensemble des autres coûts. Le projet reste viable sur le papier avec les hypothèses de CA, mais la marge de manœuvre se réduit légèrement.",
+    "point4": "La validation de tous ces chiffres par une étude de marché locale et un expert-comptable est plus que jamais essentielle."
+  }
+}
